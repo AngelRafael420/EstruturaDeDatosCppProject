@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include=".\motor_grafico\Camera.cpp" />
+    <ClCompile Include=".\motor_grafico\Mesh.cpp" />
+    <ClCompile Include=".\motor_grafico\MeshInterface.cpp" />
+    <ClCompile Include=".\motor_grafico\ShaderProgram.cpp" />
+    <ClCompile Include=".\motor_grafico\Texture2D.cpp" />
+    <ClCompile Include=".\src\Elemento.cpp" />
+    <ClCompile Include=".\src\Lista.cpp" />
+    <ClCompile Include=".\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\motor_grafico\Camera.h" />
+    <ClInclude Include=".\motor_grafico\Mesh.h" />
+    <ClInclude Include=".\motor_grafico\MeshInterface.h" />
+    <ClInclude Include=".\motor_grafico\motor_grafico.h" />
+    <ClInclude Include=".\motor_grafico\ShaderProgram.h" />
+    <ClInclude Include=".\motor_grafico\Texture2D.h" />
+    <ClInclude Include=".\src\Elemento.h" />
+    <ClInclude Include=".\src\Lista.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\basic.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\basic.vert">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="motor_grafico">
+      <UniqueIdentifier>{682f564e-006b-42f9-b12d-0ef9fd047122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{40526da2-8c68-4480-bdcd-ce9966dd4dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{572c96fd-01e8-44fa-8c3b-9a263b8ab196}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
